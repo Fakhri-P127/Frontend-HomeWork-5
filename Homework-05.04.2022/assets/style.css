@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+}
+.container {
+  width: 90%;
+  height: 85vh;
+  margin: 10px auto;
+}
+.contents {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.content {
+  display: inline-block;
+  margin-left: 10px;
+
+  width: 30%;
+}
+
+.head-text h2 {
+  display: inline-block;
+  text-align: start;
+  margin-right: 40px;
+}
+.info .head-text span {
+  text-align: end;
+}
+.info {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  text-align: start;
+}
+.content .photo1,
+.content .photo2,
+.content .photo3 {
+  width: 100%;
+  height: 50vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.content .photo1 {
+  background: url(/assets/images/water.jpeg) center/cover no-repeat;
+}
+.content .photo2 {
+  background: url(images/h2o.jpeg) center/cover no-repeat;
+}
+.content .photo3 {
+  background: url(images/hand.jpeg) center/cover no-repeat;
+}
+.links {
+  text-align: center;
+  margin-top: 15px;
+  padding-right: 20px;
+  height: 100%;
+  width: 100%;
+}
+.links a {
+  color: white;
+  background-color: rgb(55, 82, 219);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.links i {
+  margin-right: 10px;
+}
+.links .green-btn {
+  background-color: rgb(86, 194, 43);
+}
