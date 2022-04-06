@@ -5,29 +5,32 @@
 }
 body {
   background-color: #f4f4f4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .container {
   width: 90%;
-  height: 85vh;
   margin: 10px auto;
 }
 .contents {
   text-align: center;
   width: 100%;
   height: 100%;
-  background-color: white;
 }
 .content {
   display: inline-block;
   margin-left: 10px;
-
+  background-color: white;
+  border-radius: 20px;
   width: 30%;
 }
 
 .head-text h2 {
   display: inline-block;
   text-align: start;
-  margin-right: 40px;
+  margin-right: 50px;
+}
+.head-text .downloads {
+  display: inline-block;
 }
 .info .head-text span {
   text-align: end;
@@ -47,27 +50,27 @@ body {
   border-top-right-radius: 20px;
 }
 .content .photo1 {
-  background: url(/assets/images/water.jpeg) center/cover no-repeat;
+  background: url(/assets/images/Juicy-Web-Design-Trends-For-Restaurant-Menu-Pages.jpg)
+    left/cover no-repeat;
 }
 .content .photo2 {
-  background: url(images/h2o.jpeg) center/cover no-repeat;
+  background: url(images/website-menu-design-3.webp) left/cover no-repeat;
 }
 .content .photo3 {
-  background: url(images/hand.jpeg) center/cover no-repeat;
+  background: url(images/website-menu-design.jpeg) right/cover no-repeat;
 }
 .links {
   text-align: center;
-  margin-top: 15px;
-  padding-right: 20px;
+  margin: 20px auto;
   height: 100%;
   width: 100%;
 }
 .links a {
   color: white;
   background-color: rgb(55, 82, 219);
-  padding: 10px;
-  border-radius: 10px;
-  margin-right: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+
   text-decoration: none;
 }
 .links i {
@@ -75,4 +78,16 @@ body {
 }
 .links .green-btn {
   background-color: rgb(86, 194, 43);
+  width: 100%;
+}
+
+.contents .content .info .head-text h2:first-child {
+  color: rgb(55, 82, 219);
+}
+.info {
+  padding-left: 10px;
+}
+
+.info .head-text h2 {
+  margin-bottom: 20px;
 }
